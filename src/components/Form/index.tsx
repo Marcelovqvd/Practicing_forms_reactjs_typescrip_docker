@@ -9,6 +9,7 @@ export const Form = () => {
     console.log(nameRef.current?.value)
     console.log(emailRef.current?.value)
   }
+  
   return (
     <form onSubmit={onSubmit}>
       <div>
